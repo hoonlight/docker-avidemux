@@ -16,7 +16,7 @@ ARG LIBDCA_VERSION=0.0.7
 ARG DCAENC_VERSION=3
 
 # Define software download URLs.
-ARG AVIDEMUX_URL=https://downloads.sourceforge.net/project/avidemux/avidemux/${AVIDEMUX_VERSION}/avidemux_${AVIDEMUX_VERSION}.tar.gz
+ARG AVIDEMUX_URL=https://api.github.com/repos/mean00/avidemux2/tarball
 ARG OPENCORE_AMR_URL=https://downloads.sourceforge.net/project/opencore-amr/opencore-amr/opencore-amr-${OPENCORE_AMR_VERSION}.tar.gz
 ARG TWOLAME_URL=https://downloads.sourceforge.net/project/twolame/twolame/${TWOLAME_VERSION}/twolame-${TWOLAME_VERSION}.tar.gz
 ARG AFTEN_URL=https://downloads.sourceforge.net/project/aften/aften/${AFTEN_VERSION}/aften-${AFTEN_VERSION}.tar.bz2
